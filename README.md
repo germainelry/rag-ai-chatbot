@@ -3,8 +3,9 @@
 # AI-Powered Customer Support Platform
 ### Human-in-the-Loop · RAG Knowledge Base · Agent Dashboard · Real-Time Chat
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+<br/>
 
+[![Tech Stack](https://skillicons.dev/icons?i=python,fastapi,react,ts,postgres,docker,railway)](https://skillicons.dev)
 
 <br/>
 
@@ -13,6 +14,10 @@
 <br/>
 
 <img src="./screenshots/agent-dashboard.png" width="720" alt="Agent dashboard — AI draft review panel"/>
+
+<br/>
+
+> **Note:** This is a portfolio showcase repository. The source code is maintained in a private repository.
 
 </div>
 
@@ -29,7 +34,6 @@
 - [Challenges & Solutions](#challenges--solutions)
 - [Security & Privacy](#security--privacy)
 - [Future Improvements](#future-improvements)
-- [Case Study](#case-study)
 
 ---
 
@@ -136,8 +140,6 @@ Customer                Agent Dashboard             Backend Services
 
 ## Screenshots
 
----
-
 ### 1. Customer Chat Interface
 
 <img src="./screenshots/customer-chat.png" width="760" alt="Customer chat interface — Chatbit"/>
@@ -184,7 +186,7 @@ Set the embedding model and auto-send confidence threshold (the score at which d
 
 ---
 
-## Engineering Decisions
+## My Role & Engineering Decisions
 
 Solo end-to-end build — scoping, design, implementation, and deployment. Key decisions:
 
@@ -239,12 +241,6 @@ The MVP intentionally scopes to core functionality. A production v2 would extend
 - **Voice Channel** — Add a speech-to-text ingestion path so phone/voice interactions feed into the same agent workflow
 - **Observability Stack** — Integrate structured logging, distributed tracing, and an LLM-specific eval framework (e.g., LangSmith or Braintrust)
 - **Mobile Agent App** — A React Native companion app for agents to review and approve drafts on the go
-
----
-
-## Case Study
-
-See [`case-study.md`](./case-study.md) for a short narrative walkthrough of the project's development arc, key decision points, and lessons learned.
 
 ---
 
